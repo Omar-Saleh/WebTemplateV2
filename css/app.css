@@ -3,6 +3,7 @@
   /*margin: 0 auto;*/
   /*text-align: center;*/
   /*padding-top: 10px;*/
+  transform: translateX(25%);
 
 }
 
@@ -53,6 +54,8 @@ nav .row a {
   color: black;
   padding-top: 20%;
   margin-bottom: 10%;
+  /*width: 60%;*/
+  transform: translateX(25%);
   /*position: absolute;*/
   /*top: 30%;
   left: 10%;
@@ -144,6 +147,10 @@ nav .row a {
 .social-media {
   margin-left: 5%;
   color: rgba(252, 219, 0, 1);
+}
+
+.paragraph-color {
+  color : rgb(172,172,172);
 }
 
 
