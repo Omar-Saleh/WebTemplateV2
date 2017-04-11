@@ -87,9 +87,9 @@ nav .row a {
 }
 
 .banner-img {
-  transform: translateX(50%);
-  height: 40%;
-  width: 60%;
+  transform: translateX(55%);
+  height: 500px;
+  width: 300px;
   margin-top: 10px;
   background-image: url(../img/img1.jpg);
   background-size: cover;
@@ -159,6 +159,10 @@ nav .row a {
     height: auto;
   }
 
+  .banner-text {
+    transform: none;
+  }
+
   .banner-img {
     margin-left: auto;
     margin-right: auto;
@@ -171,6 +175,7 @@ nav .row a {
     /*float: left;*/
     margin: 0 auto;
     text-align: center;
+    transform: none;
     /*padding-top: 10px;*/
 
   }
