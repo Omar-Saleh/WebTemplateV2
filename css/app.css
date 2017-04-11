@@ -1,0 +1,170 @@
+.logo-container {
+  /*float: left;*/
+  /*margin: 0 auto;*/
+  /*text-align: center;*/
+  /*padding-top: 10px;*/
+
+}
+
+nav ul {
+  /*float: right;*/
+  padding-left: 30%;
+  margin: 0;
+  margin-right: 5%;
+}
+
+nav ul li {
+  display: inline-block;
+  color: black;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: black;
+}
+
+input[type="text"] {
+  margin-left: 0;
+  border-radius: 5px;
+}
+
+nav {
+  /*background-color: red;*/
+  padding: 30px 60px;
+}
+
+nav .row a {
+  color: black;
+}
+
+.clear {
+  clear: both;
+}
+
+.banner {
+  background-color: rgba(252, 219, 0, 1);
+  height: 100vh;
+  /*min-height: 300px;*/
+  /*position: relative;*/
+  overflow: hidden;
+}
+
+.banner-text {
+  color: black;
+  padding-top: 20%;
+  margin-bottom: 10%;
+  /*position: absolute;*/
+  /*top: 30%;
+  left: 10%;
+  width: 30%;*/
+  /*height: inherit;*/
+  /*text-align: right;*/
+  /*transform: translateY(-30%);*/
+  /*transform: translateX(10%);*/
+}
+
+.banner-text a {
+  background-color: purple;
+  border-radius: 25px;
+}
+
+.headers {
+  /*background-color: rgb(46, 59, 78);*/
+  color: black;
+  padding: 50px;
+}
+
+.rowheaders {
+  width: 100%;
+  max-width: 600px;
+}
+
+.icons-container i {
+  margin-right: 30px;
+}
+
+.banner-img {
+  transform: translateX(50%);
+  height: 40%;
+  width: 60%;
+  margin-top: 10px;
+  background-image: url(../img/img1.jpg);
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.section-thumbnail {
+  /*display: inline-block;*/
+  float:left;
+  margin-right: 10px;
+}
+
+.section-row {
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.footer {
+  background-color: black;
+  color:  white;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.footer-title {
+  color :  rgba(252, 219, 0, 1);
+}
+
+.footer-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.submit {
+  background-color: rgba(252, 219, 0, 1);
+  border-radius: 5px;
+}
+
+.nav-header {
+  padding-left: 30%;
+  margin: 0;
+  margin-right: 5%;
+}
+
+.text-input {
+  width:75%;
+  float:left;
+  margin: 0 auto;
+}
+
+.social-media {
+  margin-left: 5%;
+  color: rgba(252, 219, 0, 1);
+}
+
+
+@media only screen and (max-width: 780px) {
+  .banner {
+    height: auto;
+  }
+
+  .banner-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transform: none;
+    /*float: left;*/
+  }
+  .logo-container {
+    /*float: left;*/
+    margin: 0 auto;
+    text-align: center;
+    /*padding-top: 10px;*/
+
+  }
+}
